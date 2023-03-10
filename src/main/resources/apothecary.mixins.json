@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "coffee.amo.apothecary.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "Apothecary.refmap.json",
+  "mixins": [
+    "FleshTearerAbilityProcedureMixin",
+    "PotatoCannonProjectileTypeMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
